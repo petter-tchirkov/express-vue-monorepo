@@ -1,7 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# now, provide a readme file for this setup. describe it as a starter template, include steps to install it. this readme will be used in a github repository
-
 ```markdown
 # Fullstack Monorepo Starter
 
