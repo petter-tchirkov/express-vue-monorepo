@@ -5,8 +5,8 @@ A starter template for a modern fullstack application using pnpm workspaces, Exp
 ## Project Structure
 ```
 root/
-├── frontend/        \# Vue 3 + Vite + TypeScript
-├── backend/         \# Express.js + TypeScript
+├── website/        \# Vue 3 + Vite + TypeScript
+├── api/         \# Express.js + TypeScript
 ├── tsconfig.base.json
 ├── pnpm-workspace.yaml
 └── package.json
@@ -39,7 +39,7 @@ pnpm install
 
 4. **Build the backend (optional, for production)**
 ```
-cd backend
+cd api 
 pnpm run build
 ```
 
@@ -50,8 +50,8 @@ pnpm run build
   ```
 - **Or start them separately:**
   ```
-  pnpm dev:frontend   # Starts frontend dev server
-  pnpm dev:backend    # Starts backend server
+  pnpm dev:website   # Starts frontend dev server
+  pnpm dev:api    # Starts backend server
   ```
 
 ## Development URLs
@@ -61,8 +61,8 @@ pnpm run build
 
 ## Usage
 
-- **Frontend:** Edit files in `frontend/src/`
-- **Backend:** Edit files in `backend/src/`
+- **Frontend:** Edit files in `website/src/`
+- **Backend:** Edit files in `api/src/`
 
 ## Customization
 
