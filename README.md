@@ -1,11 +1,8 @@
-```markdown
 # Fullstack Monorepo Starter
 
 A starter template for a modern fullstack application using pnpm workspaces, Express.js with TypeScript for the backend, and Vite + Vue 3 with TypeScript for the frontend.
 
 ## Project Structure
-
-```
 
 root/
 ├── frontend/        \# Vue 3 + Vite + TypeScript
@@ -13,8 +10,6 @@ root/
 ├── tsconfig.base.json
 ├── pnpm-workspace.yaml
 └── package.json
-
-```
 
 ## Features
 
