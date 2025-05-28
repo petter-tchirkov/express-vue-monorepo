@@ -3,14 +3,14 @@
 A starter template for a modern fullstack application using pnpm workspaces, Express.js with TypeScript for the backend, and Vite + Vue 3 with TypeScript for the frontend.
 
 ## Project Structure
-
+```
 root/
 ├── frontend/        \# Vue 3 + Vite + TypeScript
 ├── backend/         \# Express.js + TypeScript
 ├── tsconfig.base.json
 ├── pnpm-workspace.yaml
 └── package.json
-
+```
 ## Features
 
 - **Monorepo setup with pnpm workspaces** for efficient dependency management
@@ -23,32 +23,24 @@ root/
 
 1. **Clone the repository**
 ```
-
 git clone https://github.com/your-repo/fullstack-monorepo.git
 cd fullstack-monorepo
-
 ```
 
 2. **Install pnpm (if not already installed)**
 ```
-
 npm install -g pnpm
-
 ```
 
 3. **Install dependencies**
 ```
-
 pnpm install
-
 ```
 
 4. **Build the backend (optional, for production)**
 ```
-
 cd backend
 pnpm run build
-
 ```
 
 5. **Start the development servers**
@@ -80,5 +72,3 @@ pnpm run build
 ---
 
 This template is designed for rapid prototyping and scalable fullstack projects. Enjoy your development!
-```
-
